@@ -16,3 +16,12 @@ move_robot = c++/c/python 이용해서 메니퓰레이터 제어하는 코드들
 dualarm folder = 이 폴더에 있는 urdf 이용해서 moveit에서만 시뮬레이션으로 구현했었음.
 실제로 dual-arm 제어는 한 적이 없으므로 dual-arm ver을 gazebo와 연동시켰던 적은 없음.
 새로 구현해야 함
+
+
+
+
+무빗과 가제보 연동 했을 때 무빗에서는 플래닝 되는데 가제보에서 execute 안 되던 이유 해결방법
+(Unable to identify any set of controllers that can actuate the specified joints 라는 에러가 발생함)
+: ros_controllers.yaml 의 controller list 가 []으로 남아있었기 때문인듯.
+참고 링크
+https://answers.ros.org/question/320990/moveit-unable-to-identify-any-set-of-controllers/
