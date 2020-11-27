@@ -8,6 +8,8 @@ final_gazebo = https://github.com/eYSIP-2017/eYSIP-2017_Robotic_Arm/wiki/Interfa
 위의 링크에서 참조할 때. git에서 다운받은 폴더. (자동으로 생성되지는 않음)
 이 폴더안에 config/launch 파일들을 우리 manipulator에 맞게 수정해서 사용했었음.
 
+move_robot = c++/c/python 이용해서 메니퓰레이터 제어하는 코드들 모음폴더
+
 *** single arm 제어에만 이용함 ****
 *** ourarm / joint 1~7 과 같은 이름들 ***
 
