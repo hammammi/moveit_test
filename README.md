@@ -10,6 +10,8 @@ final_gazebo = https://github.com/eYSIP-2017/eYSIP-2017_Robotic_Arm/wiki/Interfa
 
 move_robot = c++/c/python 이용해서 메니퓰레이터 제어하는 코드들 모음폴더
 
+position_estimation_test = bag files for single arm & mobile test
+
 *** single arm 제어에만 이용함 ****
 *** ourarm / joint 1~7 과 같은 이름들 ***
 
@@ -25,3 +27,5 @@ dualarm folder = 이 폴더에 있는 urdf 이용해서 moveit에서만 시뮬�
 : ros_controllers.yaml 의 controller list 가 []으로 남아있었기 때문인듯.
 참고 링크
 https://answers.ros.org/question/320990/moveit-unable-to-identify-any-set-of-controllers/
+
+
