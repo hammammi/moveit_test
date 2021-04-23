@@ -10,7 +10,7 @@ final_gazebo = https://github.com/eYSIP-2017/eYSIP-2017_Robotic_Arm/wiki/Interfa
 
 move_robot = c++/c/python 이용해서 메니퓰레이터 제어하는 코드들 모음폴더
 
-position_estimation_test = bag files for single arm & mobile test
+position_estimation_test = bag files for single arm & mobile test (90_bag 파일들은 90도 돌려서 장착했을때 용)
 
 *** single arm 제어에만 이용함 ****
 *** ourarm / joint 1~7 과 같은 이름들 ***
